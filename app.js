@@ -7,4 +7,7 @@ app.get('/', (req, res) => res.send('Hello World!'))
 // About us page
 app.get('/about', (req, res) => res.send('Yet another about us page!'))
 
+// Content page
+app.get('/about', (req, res) => res.send('You can send us an email on contact@example.com'))
+
 app.listen(3000, () => console.log('Example app listening on port 3000!'))
